@@ -12,4 +12,10 @@
      Anatomia de uma tag html
    </a>
   </li> 
+
+  <li>
+   <a href = "https://github.com/Fas-naWeb/Curso-de-Desenvolvimento-Web/blob/main/_01_Sobre_HTML/_02_sobreAtag_html.html">
+     A estrutura html
+   </a>
+  </li> 
 </ol>
