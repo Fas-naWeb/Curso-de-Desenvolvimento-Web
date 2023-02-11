@@ -8,8 +8,8 @@
 
 <ol>
   <li>
-   <a href = "https://github.com/Fas-naWeb/Curso-de-Linux---Concluido/blob/main/Aprendendo_Linux/src/Exercicios_linux/Exercicio_revisao_01.java">
-     Introdução a Web
+   <a href = "https://github.com/Fas-naWeb/Curso-de-Desenvolvimento-Web/blob/main/_01_Sobre_HTML/_01_anatomia_da_tag.html">
+     Anatomia de uma tag html
    </a>
   </li> 
 </ol>
