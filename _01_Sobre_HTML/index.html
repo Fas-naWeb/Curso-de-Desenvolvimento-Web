@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicios HTML</title>
+  </head>
+  <body>
+    <header>Exercicios HTML</header>
+    <nav>
+      <a href="#" nv-web="exercicios/teste.html">00 - Teste</a>
+      <a href="#" nv-web="exercicios/outro.html">Outro</a>
+    </nav>
+    <section id="conteudo"></section>
+    <footer>
+      <br />
+      Curso de Web Moderno
+    </footer>
+    <script>
+      /*
+        Pega todo elemento que possui o atributo nv-web,isso retorna um array,forEach é uma
+        função que varre esse array passando por cada elemento.Quando o usuário clica no link
+        dispara o evento onClick que por sua vez recebe uma função.Essa função recupera o ele
+        mento conteudo do documento html,onde sera inserido o conteudo das paginas html.
+
+        fecth é uma função que retorna uma promessa,Nesse caso ela seleciona o elemento pelo 
+        atributo e retorna uma resposta,essa resposta se tem acesso pelo metodo then() que tam
+        bem recebe uma função e age ensima da resposta de fetch,nesse caso pega o texto devolvido
+        por fecth,e também retorna uma resposta que e pega por outro then(),html que no caso e 
+        transferido para a variável conteudo.
+     */
+      document.querySelectorAll('[nv-web]').forEach((link) => {
+        link.onclick = function (e) {
+          event.preventDefault()
+          const conteudo = document.getElementById('conteudo') 
+          fetch(link.getAttribute('nv-web'))
+          .then(resp => resp.text())
+          .then(html => conteudo.innerHTML = html)
+        };
+      });
+    </script>
+  </body>
+</html>
