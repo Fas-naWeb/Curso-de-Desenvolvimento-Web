@@ -31,4 +31,10 @@
      Index
    </a>
   </li> 
+
+  <li>
+   <a href = "https://github.com/Fas-naWeb/Curso-de-Desenvolvimento-Web/blob/main/_01_Sobre_HTML/index.html">
+     Inicio com tag de texto
+   </a>
+  </li> 
 </ol>
