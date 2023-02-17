@@ -33,7 +33,7 @@
   </li> 
 
   <li>
-   <a href = "https://github.com/Fas-naWeb/Curso-de-Desenvolvimento-Web/blob/main/_01_Sobre_HTML/index.html">
+   <a href = "https://github.com/Fas-naWeb/Curso-de-Desenvolvimento-Web/blob/main/_01_Sobre_HTML/exercicios/texto1.html">
      Inicio com tag de texto
    </a>
   </li> 
