@@ -48,4 +48,10 @@
    Sobre Listas
     </a>
   </li>
+
+  <li>
+    <a href="https://github.com/Fas-naWeb/Curso-de-Desenvolvimento-Web/blob/main/_01_Sobre_HTML/exercicios/listaAninhada.html">
+   Listas aninhadas
+    </a>
+  </li>
 </ol>
